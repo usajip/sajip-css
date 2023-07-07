@@ -4219,6 +4219,10 @@
 				margin-left: auto;
 				margin-right: auto;
 			}
+			.item-stretch{align-items: stretch;}
+			.item-start{align-items: start;}
+			.item-end{align-items: end;}
+			.item-center{align-items: center;}
 		/*Text Align*/
 			.center-text-align{
 				text-align: center;
@@ -4340,6 +4344,11 @@
 		    	margin-left: auto;
 		    	margin-right: auto;
 			}
+			.lg_item-stretch{align-items: stretch;}
+			.lg_item-start{align-items: start;}
+			.lg_item-end{align-items: end;}
+			.lg_item-center{align-items: center;}
+
 			.lg_left-text{text-align: left;}
 			.lg_right-text{text-align: right;}
 			.lg_justify-text{text-align: justify;}
@@ -4446,6 +4455,12 @@
 		    	margin-left: auto;
 		    	margin-right: auto;
 			}
+
+			.md_item-stretch{align-items: stretch;}
+			.md_item-start{align-items: start;}
+			.md_item-end{align-items: end;}
+			.md_item-center{align-items: center;}
+
 			.md_left-text{text-align: left;}
 			.md_right-text{text-align: right;}
 			.md_justify-text{text-align: justify;}
@@ -4549,6 +4564,12 @@
 		    	margin-left: auto;
 		    	margin-right: auto;
 			}
+
+			.m_item-stretch{align-items: stretch;}
+			.m_item-start{align-items: start;}
+			.m_item-end{align-items: end;}
+			.m_item-center{align-items: center;}
+
 			.m_left-text{text-align: left;}
 			.m_right-text{text-align: right;}
 			.m_justify-text{text-align: justify;}
