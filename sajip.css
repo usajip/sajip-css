@@ -4120,6 +4120,7 @@
 	/*Default Display*/
 		.hide{display: none;}
 		.show{display: block;}
+		.d-flex{display: flex;}
 		.d-flex-start{display: flex;justify-content: flex-start;}
 		.d-flex-end{display: flex;justify-content: flex-end;}
 		.d-flex-btw{display: flex;justify-content: space-between;}
@@ -4129,8 +4130,29 @@
 	    .d-flex-center-btw{display: flex;align-items: center;justify-content: space-between;}
 
 	    .d-flex-column{display: flex;flex-direction: column;}
+	    .d-flex-column-start{display: flex;flex-direction: column;justify-content: flex-start;}
+	    .d-flex-column-end{display: flex;flex-direction: column;justify-content: flex-end;}
 	    .d-flex-column-center{display: flex;flex-direction: column;justify-content: center;}
 	    .d-flex-column-btw{display: flex;flex-direction: column;justify-content: space-between;}
+	    .d-flex-column-spa{display: flex;flex-direction: column;justify-content: space-around;}
+
+	    .d-grid{display: grid;}
+	    .grid-1{grid-template-columns: repeat(1, 1fr);}
+	    .grid-2{grid-template-columns: repeat(2, 1fr);}
+	    .grid-3{grid-template-columns: repeat(3, 1fr);}
+	    .grid-4{grid-template-columns: repeat(4, 1fr);}
+	    .grid-5{grid-template-columns: repeat(5, 1fr);}
+	    .grid-6{grid-template-columns: repeat(6, 1fr);}
+	    .grid-7{grid-template-columns: repeat(7, 1fr);}
+	    .grid-8{grid-template-columns: repeat(8, 1fr);}
+	    .grid-9{grid-template-columns: repeat(9, 1fr);}
+	    .grid-10{grid-template-columns: repeat(10, 1fr);}
+	    .grid-11{grid-template-columns: repeat(11, 1fr);}
+	    .grid-12{grid-template-columns: repeat(12, 1fr);}
+
+	    .wrap{flex-wrap: wrap;}
+	    .wrap-no{flex-wrap: nowrap;}
+	    .wrap-reverse{flex-wrap: wrap-reverse;}
 
     /*LG Display*/
 		@media(min-width: 992px)
@@ -4138,6 +4160,8 @@
 			.lg_center-text{text-align: center!important;}
 			.lg_hide{display: none!important;}
 			.lg_show{display: block!important;}
+
+			.lg_d-flex{display: flex;}
 			.lg_d-flex-start{display: flex;justify-content: flex-start;}
 			.lg_d-flex-end{display: flex;justify-content: flex-end;}
 			.lg_d-flex-btw{display: flex;justify-content: space-between;}
@@ -4147,8 +4171,29 @@
 		    .lg_d-flex-center-btw{display: flex;align-items: center;justify-content: space-between;}
 
 		    .lg_d-flex-column{display: flex;flex-direction: column;}
+		    .lg_d-flex-column-start{display: flex;flex-direction: column;justify-content: flex-start;}
+		    .lg_d-flex-column-end{display: flex;flex-direction: column;justify-content: flex-end;}
 		    .lg_d-flex-column-center{display: flex;flex-direction: column;justify-content: center;}
 		    .lg_d-flex-column-btw{display: flex;flex-direction: column;justify-content: space-between;}
+		    .lg_d-flex-column-spa{display: flex;flex-direction: column;justify-content: space-around;}
+
+		    .lg_d-grid{display: grid;}
+		    .lg_grid-1{grid-template-columns: repeat(1, 1fr);}
+		    .lg_grid-2{grid-template-columns: repeat(2, 1fr);}
+		    .lg_grid-3{grid-template-columns: repeat(3, 1fr);}
+		    .lg_grid-4{grid-template-columns: repeat(4, 1fr);}
+		    .lg_grid-5{grid-template-columns: repeat(5, 1fr);}
+		    .lg_grid-6{grid-template-columns: repeat(6, 1fr);}
+		    .lg_grid-7{grid-template-columns: repeat(7, 1fr);}
+		    .lg_grid-8{grid-template-columns: repeat(8, 1fr);}
+		    .lg_grid-9{grid-template-columns: repeat(9, 1fr);}
+		    .lg_grid-10{grid-template-columns: repeat(10, 1fr);}
+		    .lg_grid-11{grid-template-columns: repeat(11, 1fr);}
+		    .lg_grid-12{grid-template-columns: repeat(12, 1fr);}
+
+		    .lg_wrap{flex-wrap: wrap;}
+		    .lg_wrap-no{flex-wrap: nowrap;}
+		    .lg_wrap-reverse{flex-wrap: wrap-reverse;}
 		}
 	
 	/*MD Display*/
@@ -4158,6 +4203,7 @@
 			.md_hide{display: none!important;}
 			.md_show{display: block!important;}
 
+			.md_d-flex{display: flex;}
 			.md_d-flex-start{display: flex;justify-content: flex-start;}
 			.md_d-flex-end{display: flex;justify-content: flex-end;}
 			.md_d-flex-btw{display: flex;justify-content: space-between;}
@@ -4167,8 +4213,29 @@
 		    .md_d-flex-center-btw{display: flex;align-items: center;justify-content: space-between;}
 
 		    .md_d-flex-column{display: flex;flex-direction: column;}
+		    .md_d-flex-column-start{display: flex;flex-direction: column;justify-content: flex-start;}
+		    .md_d-flex-column-end{display: flex;flex-direction: column;justify-content: flex-end;}
 		    .md_d-flex-column-center{display: flex;flex-direction: column;justify-content: center;}
 		    .md_d-flex-column-btw{display: flex;flex-direction: column;justify-content: space-between;}
+		    .md_d-flex-column-spa{display: flex;flex-direction: column;justify-content: space-around;}
+
+		    .md_d-grid{display: grid;}
+		    .md_grid-1{grid-template-columns: repeat(1, 1fr);}
+		    .md_grid-2{grid-template-columns: repeat(2, 1fr);}
+		    .md_grid-3{grid-template-columns: repeat(3, 1fr);}
+		    .md_grid-4{grid-template-columns: repeat(4, 1fr);}
+		    .md_grid-5{grid-template-columns: repeat(5, 1fr);}
+		    .md_grid-6{grid-template-columns: repeat(6, 1fr);}
+		    .md_grid-7{grid-template-columns: repeat(7, 1fr);}
+		    .md_grid-8{grid-template-columns: repeat(8, 1fr);}
+		    .md_grid-9{grid-template-columns: repeat(9, 1fr);}
+		    .md_grid-10{grid-template-columns: repeat(10, 1fr);}
+		    .md_grid-11{grid-template-columns: repeat(11, 1fr);}
+		    .md_grid-12{grid-template-columns: repeat(12, 1fr);}
+
+		    .md_wrap{flex-wrap: wrap;}
+		    .md_wrap-no{flex-wrap: nowrap;}
+		    .md_wrap-reverse{flex-wrap: wrap-reverse;}
 		}
 	
 	/*Mobile Display*/
@@ -4178,6 +4245,7 @@
 			.m_hide{display: none!important;}
 			.m_show{display: block!important;}
 
+			._d-flex{display: flex;}
 			.m_d-flex-start{display: flex;justify-content: flex-start;}
 			.m_d-flex-end{display: flex;justify-content: flex-end;}
 			.m_d-flex-btw{display: flex;justify-content: space-between;}
@@ -4187,24 +4255,53 @@
 		    .m_d-flex-center-btw{display: flex;align-items: center;justify-content: space-between;}
 
 		    .m_d-flex-column{display: flex;flex-direction: column;}
+		    .m_d-flex-column-start{display: flex;flex-direction: column;justify-content: flex-start;}
+		    .m_d-flex-column-end{display: flex;flex-direction: column;justify-content: flex-end;}
 		    .m_d-flex-column-center{display: flex;flex-direction: column;justify-content: center;}
 		    .m_d-flex-column-btw{display: flex;flex-direction: column;justify-content: space-between;}
+		    .m_d-flex-column-spa{display: flex;flex-direction: column;justify-content: space-around;}
+
+		    .m_d-grid{display: grid;}
+		    .m_grid-1{grid-template-columns: repeat(1, 1fr);}
+		    .m_grid-2{grid-template-columns: repeat(2, 1fr);}
+		    .m_grid-3{grid-template-columns: repeat(3, 1fr);}
+		    .m_grid-4{grid-template-columns: repeat(4, 1fr);}
+		    .m_grid-5{grid-template-columns: repeat(5, 1fr);}
+		    .m_grid-6{grid-template-columns: repeat(6, 1fr);}
+		    .m_grid-7{grid-template-columns: repeat(7, 1fr);}
+		    .m_grid-8{grid-template-columns: repeat(8, 1fr);}
+		    .m_grid-9{grid-template-columns: repeat(9, 1fr);}
+		    .m_grid-10{grid-template-columns: repeat(10, 1fr);}
+		    .m_grid-11{grid-template-columns: repeat(11, 1fr);}
+		    .m_grid-12{grid-template-columns: repeat(12, 1fr);}
+
+		    .m_wrap{flex-wrap: wrap;}
+		    .m_wrap-no{flex-wrap: nowrap;}
+		    .m_wrap-reverse{flex-wrap: wrap-reverse;}
 		}
 
 	/*Overflow*/
 		/*Default*/
 			.ov-hidden{overflow: hidden;}
+			.ov-scroll{overflow: scroll;}
+			.ov-auto{overflow: auto;}
 		/*Large Overflow*/
 			@media(min-width: 992px){
-				.lg_ov-hidden{overflow: hidden;}		
+				.lg_ov-hidden{overflow: hidden;}
+				.lg_ov-scroll{overflow: scroll;}
+				.lg_ov-auto{overflow: auto;}
 			}
 		/*Medium Overflow*/
 			@media(max-width: 992px){
-				.md_ov-hidden{overflow: hidden;}		
+				.md_ov-hidden{overflow: hidden;}
+				.md_ov-scroll{overflow: scroll;}
+				.md_ov-auto{overflow: auto;}	
 			}
 		/*Mobile Overflow*/
 			@media(max-width: 768px){
-				.m_ov-hidden{overflow: hidden;}		
+				.m_ov-hidden{overflow: hidden;}
+				.m_ov-scroll{overflow: scroll;}
+				.m_ov-auto{overflow: auto;}
 			}
 
 /*Position*/
