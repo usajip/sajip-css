@@ -4153,7 +4153,7 @@
 	    .wrap{flex-wrap: wrap;}
 	    .wrap-no{flex-wrap: nowrap;}
 	    .wrap-reverse{flex-wrap: wrap-reverse;}
-
+/**/
     /*LG Display*/
 		@media(min-width: 992px)
 		{
@@ -4326,9 +4326,7 @@
 			}
 			.center-text{text-align: center;}
 			.left-text{text-align: left;}
-			.right-text{
-				text-align: right;
-			}
+			.right-text{text-align: right;}
 			.justify-text{text-align: justify;}
 		/*Float*/
 			.float-left{float: left!important;}
