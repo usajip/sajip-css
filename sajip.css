@@ -4286,7 +4286,7 @@
 			.m_hide{display: none!important;}
 			.m_show{display: block!important;}
 
-			._d-flex{display: flex;}
+			.m_d-flex{display: flex;}
 			.m_d-flex-start{display: flex;justify-content: flex-start;}
 			.m_d-flex-end{display: flex;justify-content: flex-end;}
 			.m_d-flex-btw{display: flex;justify-content: space-between;}
