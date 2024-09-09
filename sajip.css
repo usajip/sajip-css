@@ -495,7 +495,7 @@
 		}
 
 	/*font weight Tablet*/
-		@media(min-width: 992px)
+		@media(max-width: 992px)
 		{
 			.md_fw-100{font-weight: 100;}
 			.md_fw-200{font-weight: 200;}
@@ -14600,7 +14600,7 @@
 			.min-w-1480 {min-width: 1480px !important;}
 			.min-w-1490 {min-width: 1490px !important;}
 
-		/*Large min widht*/
+		/*Large min-width*/
 			@media(min-width: 992px){
 				.lg_min-w-10 {min-width: 10px !important;}
 				.lg_min-w-20 {min-width: 20px !important;}
@@ -14768,8 +14768,8 @@
 				.lg_min-w-1490 {min-width: 1490px !important;}
 			}
 
-		/*Medium min widht*/
-			@media(min-width: 992px){
+		/*Medium min-width*/
+			@media(max-width: 992px){
 				.md_min-w-10 {min-width: 10px !important;}
 				.md_min-w-20 {min-width: 20px !important;}
 				.md_min-w-30 {min-width: 30px !important;}
@@ -14936,8 +14936,8 @@
 				.md_min-w-1490 {min-width: 1490px !important;}
 			}
 
-		/*Mobile min widht*/
-			@media(min-width: 768px){
+		/*Mobile min-width*/
+			@media(max-width: 768px){
 				.m_min-w-10 {min-width: 10px !important;}
 				.m_min-w-20 {min-width: 20px !important;}
 				.m_min-w-30 {min-width: 30px !important;}
@@ -16168,7 +16168,7 @@
 		}
 
 	/*Medium min height*/
-		@media(min-width: 992px){
+		@media(max-width: 992px){
 			.md_min-h-1 {min-height: 1px !important;}
 			.md_min-h-2 {min-height: 2px !important;}
 			.md_min-h-3 {min-height: 3px !important;}
@@ -16346,7 +16346,7 @@
 		}
 
 	/*Mobile min height*/
-		@media(min-width: 768px){
+		@media(max-width: 768px){
 			.m_min-h-1 {min-height: 1px !important;}
 			.m_min-h-2 {min-height: 2px !important;}
 			.m_min-h-3 {min-height: 3px !important;}
