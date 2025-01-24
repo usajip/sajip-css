@@ -8,6 +8,8 @@ This is my own CSS package
 - Margin
 - Padding
 - Display
+  - Flex
+  - Grid
 - Gap
 - Alignments
 - Positions
